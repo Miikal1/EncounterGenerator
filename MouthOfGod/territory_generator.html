@@ -1,0 +1,48 @@
+<!DOCTYPEhtml><head>
+<title> Territory generator</title>
+
+
+<script src="jquery-1.11.2.min.js"></script>
+<script src="tracery.min.js"></script>
+<script src="input_output.js"></script>
+<script src="grammar.js"></script>
+<script src="territories.js"></script>
+
+
+
+</head>
+<body>
+<a href="territory_generator.html">Encounter Generator</a>
+
+
+
+
+<hr>
+
+<pre>This page was imagined to be used with Dungeons and Dragons or some similar adventure role playing game, but for a group that does not mind realism being thrown out the window. The players would agree to have random encounters in the 
+game, and would allow the game master to use this generator to create encounters with enemies for the players to navigate. This page would be used in two ways, depending on how the encounter is supposed to start. The first option, called
+with the button on the left, is for when the players are attacked by monsters, with the generator deciding the nature of the attack, such as if the adventurers simply ran into the beasts or if they were ambushed out of nowhere. The other 
+option, triggered by the button on the right, is for when the players choose to start a fight with a monster themselves. This option also decides if the players were able to sneak up on the monsters or not. Both of these options also 
+decide a number of details about the encounter, such as what kind of monsters the players are going to fight, how many monsters are there, what they have for weapons, and what treasure they may have. Depending on which scenario the 
+players are in, the game master would click the button that fits the scenario and present the outcome to the players, who would then decide amongst themselves how to respond. The players are likely to responded to the encounters in 
+different ways, depending on what they got. If the were lucky enough to get an easy encounter, they are likely to take out the monsters quickly and move on, unless they refuse to fight such weak foes. If they get a more challenging 
+encounter, some may still desire to fight, while others would choose to flee. And whatever treasure the monsters may have can also tempt players into taking on encounters they would otherwise have nothing to do with. This application is 
+most likely to be used in a game or a session of a game like Dungeons and Dragons where the players want randomness into the game, perhaps for the challenge of having to fight hard to overcome enemies in the early stages of the adventure, 
+or they are enticed by the possibility of getting powerful or valuable items from the encounters. Whatever draws players to use this application, they are risking getting defeated early on by monsters they are in no condition to fight 
+near the start of the story, such as ten bandits with fire swords. But they are just as likely to get bizarre that seem to make no sense if one thinks about how it could work, such as slimes holding weapons. Whatever they get, the players 
+then have to deal with their situation how they see fit, be it fighting, fleeing, or something unusual. The game master also has to react accordingly, managing each monsters stats and damage and rewarding the players properly for the 
+actions they choose.</pre>
+
+<br> 
+
+
+
+<button onclick="generate_attacked()"> The adventurers are attacked </button>
+
+<button onclick="generate_attacking()"> The adventurers are attacked start a fight </button>
+
+<div id="territories"> </div>
+
+
+</body>
+</html>
